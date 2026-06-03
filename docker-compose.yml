@@ -1,0 +1,24 @@
+services:
+  web:
+    build: .
+    container_name: bookstore-web
+    ports:
+      - "8080:80"
+    depends_on:
+      - db
+
+  db:
+    image: mysql:8.0
+    container_name: bookstore-db
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: bookstore
+    command: --default-authentication-plugin=mysql_native_password
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+      - ./bookstore.sql:/docker-entrypoint-initdb.d/bookstore.sql
+volumes:
+  mysql_data:
