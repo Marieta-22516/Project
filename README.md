@@ -1,4 +1,4 @@
-# Project – Online Bookstore
+# Project - Bookstore
 
 ## Описание
 
@@ -148,7 +148,7 @@ $password = "root";
 $database = "bookstore";
 ```
 
-Важно: при работа с Docker връзката към MySQL се осъществява чрез името на услугата `db`, а не чрез `localhost`.
+При работа с Docker връзката към MySQL се осъществява чрез името на услугата `db`, а не чрез `localhost`.
 
 ---
 
@@ -204,6 +204,6 @@ docker compose down -v
 
 ---
 
-## Автор
+## Автор 
 
-Marieta
+Мариета Маринова Цончева - 22516
