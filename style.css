@@ -122,7 +122,6 @@ button:hover {
     background: linear-gradient(135deg, #219150, #25a25a);
 }
 
-/* ===== БУТОН "Детайли" (по-хубав) ===== */
 .book-card a {
     background: #3498db;
     padding: 8px 12px;
@@ -135,7 +134,6 @@ button:hover {
     transform: scale(1.05);
 }
 
-/* ===== CART LINK ===== */
 .cart-link {
     text-decoration: none;
     background: #ffffff;
