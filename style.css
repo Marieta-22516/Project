@@ -89,7 +89,7 @@ a {
     line-height: 1.6;
     color: #444;
 }
-/* ===== КОЛИЧКА СНИМКА ===== */
+
 .cart-img {
     width: 80px;
     height: 110px;
@@ -97,14 +97,12 @@ a {
     border-radius: 8px;
 }
 
-/* ===== CART ITEM ПОДРЕДБА ===== */
 .cart-item {
     display: flex;
     gap: 15px;
     align-items: center;
 }
 
-/* ===== БУТОН "Добави в количката" ===== */
 button {
     background: linear-gradient(135deg, #27ae60, #2ecc71);
     color: white;
